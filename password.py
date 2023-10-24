@@ -74,7 +74,7 @@ class Run:
             print("\n\n")
 
     def run(self):
-        menu = f"""Welcome to the PassGen App!
+        menu = {f"""Welcome to the PassGen App!
         Commands:
             generate password ->
-            <length of the password>
+            <length of the password>"""}
